@@ -8,11 +8,7 @@ def add_student(students):
     name = input("Enter Student Name: ")
     score = int(input("Enter Student Score (0-100): "))
     contact = input("Enter Contact Number: ")
-    students[student_id] = {
-        "name": name,
-        "score": score,
-        "contact": contact
-    }
+    students[student_id] = {"name": name, "score": score, "contact": contact}
     print(f"Student {name} added successfully!")
 
 def view_all_students(students):
