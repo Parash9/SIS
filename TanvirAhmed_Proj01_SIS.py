@@ -1,4 +1,4 @@
-# Student Information System (SIS) - Mini Version
+# Student Information System (SIS)
 def add_student(students):
     print("\n--- Add New Student ---")
     student_id = input("Enter Student ID: ")
@@ -94,6 +94,7 @@ def main():
     students = {}
     while True:
         print("\n=== Student Information System ===")
+        print("=== By Tanvir Ahmed ===")
         print("1. Add Student")
         print("2. View All Students")
         print("3. Search Student")
